@@ -1,0 +1,4 @@
+iincoreweb:
+    resource: "@iincorewebBundle/Resources/config/routing.yml"
+    prefix:   /
+

@@ -1,0 +1,173 @@
+{% extends 'iincorewebBundle::layout.html.twig' %}
+
+
+
+{% block body %}
+    {{ parent() }}
+
+    <div class="container" style= "padding-top: 100px">
+
+        <div class="pg-opt pin">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h2>About Us</h2>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class=col-lg-12>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="description" >
+                            <h2>
+                                Who We Are
+                            </h2>
+                        </div>
+
+                        <div class="tall">
+                            IINCORE was started by ex senior technologists from Hewlett Packard with extensive
+                            background in cloud computing, mobile development, enterprise application development
+                            and web application development. The primary motivation for the creation of IINCORE was
+                            the realization that most of the service industries have
+                            excelled at providing outsourced software development solutions for large
+                            customers, there was no world class equivalent service that would provide similar levels
+                            of service to small organizations.
+                            <br><br>
+                            The core value proposition that IINCORE offers is that it understands the special needs
+                            of startups and small companies including the limited, budget, ever changing business
+                            requirements, fast turnaround time, need to build quick prototypes, lack of
+                            infrastructure, desire to stay away from heavy upfront investments to curtail business
+                            risk.
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="col-md-6">
+                        <div class="description">
+                            <h2>
+                                Why Us
+                            </h2>
+                        </div>
+
+
+                        <div class="tall">
+                            <ul>
+                                <li><i class="icon-fixed-width icon-circle-arrow-right"></i>
+                                    We take away the pain of having to define requirements crisply when the business
+                                    is still being evolved and still keep the costs low.
+                                </li>
+                                <li><i class="icon-fixed-width icon-circle-arrow-right"></i>We provide you technology advice
+                                    to keep the upfront investment low while
+                                    meeting all your business objectives.
+                                </li>
+                                <li><i class="icon-fixed-width icon-circle-arrow-right"></i>We have a team that is split
+                                    across US, Australia and India so that customers
+                                    from all over the globe get sufficient overlap in working hours that keeps our
+                                    execution smooth
+                                <li><i class="icon-fixed-width icon-circle-arrow-right"></i>We provide assurance of quality
+                                    and reliability
+                                </li>
+                                <li><i class="icon-fixed-width icon-circle-arrow-right"></i>
+                                    We provide flexible payment terms and are open to custom commercial arrangement
+                                    to give you optimal value for your money given your budget
+                                </li>
+                            </ul>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!--  </div> -->
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4">
+                <img src="{{ asset('bundles/iincoreweb/images/kite.png') }}">
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+    <div class="container">
+        <div class="row">
+            <h1>WE ARE ...</h1>
+            <div class="col-lg-4">
+                <div class="blueBox"> <img src="{{ asset('bundles/iincoreweb/images/c.jpg') }}"alt=""> <strong>Chandraksh Pant</strong> <em class="col-social-icons">
+
+                        <a href="#"><i class="fa fa- fa-skype"></i></a>
+                        <a href="#"><i class="fa fa-linkedin-square"></i></a>
+                        <a href="#"><i class="fa fa-twitter-square"></i></a>
+                    </em>
+
+                </div>
+                <div class="twoBox">
+                    <br>
+                    <p><b>Chandraksh comes as a creative and a enthusiast leadr</b></p>
+                    <p>Chandrash has more than 20 years of experience in Health Care and Medicine domain. He has started and management SMBs and brings lots of experience in handling international business.
+                    He also owns a Pharmaceutical company in India</p>
+                    <br>
+
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="blueBox"> <img src="{{ asset('bundles/iincoreweb/images/l.jpg') }}" alt=""> <strong>Lakshana Pant</strong> <em class="col-social-icons">
+
+                        <a href="#"><i class="fa fa- fa-skype"></i></a>
+                        <a href="#"><i class="fa fa-linkedin-square"></i></a>
+                        <a href="#"><i class="fa fa-twitter-square"></i></a>
+                    </em>
+                </div>
+                <div class="twoBox">
+                    <br>
+                    <p><b>Lakshana is a very passionate individual and has constant zeal for innovation and new technologies. she constantly strives for what adds business value for the company and how best the problems can be solved.</b></p>
+                    <p> Lakshana has 18 years of experience and has worked on varied domains - Cloud computing, Virtualization, Big Data. She has worked to build high end enterprise applications
+                        during her stint at HP.
+                    </p>
+                    <br>
+                </div><!-- /twoBox -->
+            </div><!--/span6 -->
+
+            <div class="col-lg-4">
+                <div class="blueBox"> <img src="{{ asset('bundles/iincoreweb/images/d.jpg') }}" alt=""> <strong>Donald Fernandes</strong><em class="col-social-icons">
+
+                        <a href="#"><i class="fa fa- fa-skype"></i></a>
+                        <a href="#"><i class="fa fa-linkedin-square"></i></a>
+                        <a href="#"><i class="fa fa-twitter-square"></i></a>
+                    </em>
+                </div>
+                <div class="twoBox">
+                    <br>
+                    <p><b>Donald is a talented individual and is very passionate about both technology and business. He understands business and can connect customers on technology and
+                        engineering with business</b></p>
+                    <p> Cloud computing as his forte, he has tremendous knowledge on providing cloud solutions and was a key contributor to HP's Cloud solution.</p>
+                    <br>
+                </div><!-- /twoBox -->
+            </div><!--/span6 -->
+        </div><!--/row -->
+        <br>
+        <br>
+
+    </div>
+
+{% endblock %}
+
+{%block footer %}
+    {{ parent() }}}
+{% endblock %}

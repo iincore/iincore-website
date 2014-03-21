@@ -1,0 +1,25 @@
+iincoreweb_homepage:
+    pattern:  /
+    defaults: { _controller: iincorewebBundle:Default:index }
+
+_services:
+    pattern:  /services
+    defaults: { _controller: iincorewebBundle:Default:services }
+
+_aboutus:
+    pattern:  /aboutus
+    defaults: { _controller: iincorewebBundle:Default:aboutus }
+
+
+_clients:
+    pattern:  /clients
+    defaults: { _controller: iincorewebBundle:Default:clients }
+
+_contactus:
+    pattern:  /contactus
+    defaults: { _controller: iincorewebBundle:Default:contactus }
+
+sendContactEmail:
+    path:     /sendContactEmail
+    defaults: { _controller: iincorewebBundle:Default:sendContactEmail }
+    methods:  [POST]
