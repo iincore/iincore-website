@@ -100,7 +100,7 @@ font{
     text-align: center;
     padding: 40px 20px 20px 20px;
     border: 1px solid #ddd;
-    margin: 115px 0;
+    margin: 105px 0;
 
 }
 
@@ -109,7 +109,7 @@ font{
     line-height: 90px;
     width: 90px;
     font-size: 35px;
-    margin: 0 0 25px 0;
+    margin: 0 0 0 0;
     color: #fff;
     text-align: center;
     -webkit-border-radius: 50%;
@@ -126,6 +126,7 @@ font{
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     /*height:30px;*/
+    background-color: #002240;
 }
 .color-1-bg {
 
@@ -420,14 +421,22 @@ p.tall {
 
 .banner-intro p{
     display: inline-block;
-    font-size: 1.4em;
-    font-weight: 100;
+    font-size: 1.7em;
+    font-weight: 300;
     max-width: 100%;
     padding-top: 10px;
     font-family: 'Lato', Calibri, Arial, sans-serif;
+    font-kerning: initial;
+    line-height: 2.3em
 }
 
-
+.banner-intro .btn {
+    padding: 7px 25px;
+    font-size: 17.5px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 13px;
+}
 
 .banner-intro .get-started {
     margin-top: 15px;
