@@ -1,16 +1,7 @@
 
 /* General Blueprint Style */
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
-@font-face {
-    font-family: 'fontawesome';
-    src:url('../fonts/fontawesome.eot');
-    src:url('../fonts/fontawesome.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/fontawesome.svg#fontawesome') format('svg'),
-    url('../fontawesome.woff') format('woff'),
-    url('../fonts/fontawesome.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
+
 
 
 *, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
@@ -23,6 +14,14 @@ body, html { font-size: 100%; padding: 0; margin: 0;}
 body {
     font-family: 'Lato', Calibri, Arial, sans-serif;
     color: #47a3da;
+}
+
+a{
+    font-family: 'Lato', Calibri, Arial, sans-serif;
+}
+
+p{
+    font-family: 'Lato', Calibri, Arial, sans-serif;
 }
 
 font{
@@ -174,7 +173,9 @@ header nav ul.nav-main li a {
     line-height: 20px;
     margin-left: 3px;
     margin-right: 3px;
-    text-transform: uppercase;
+
+    font-family: 'Lato', Calibri, Arial, sans-serif;
+    color: #171717;
 }
 
 .nav-pills > li > a {
@@ -296,9 +297,13 @@ p{
     padding-left: -30px;
     text-align: left;
     line-height: 25px;
-
+    font-family: 'Lato', Calibri, Arial, sans-serif !important;
     list-style: none;
 
+}
+
+.box-content h4{
+    font-family: 'Lato', Calibri, Arial, sans-serif !important;
 }
 
 
@@ -379,19 +384,23 @@ i.icon{
     background: #020403 url(../img/blured.jpg) 50% 0 fixed;
 }
 
-p.tall {
+.tall p {
     margin-bottom: 20px;
+    font-family: 'Lato', Calibri, Arial, sans-serif !important;
+    line-height: 1.9em;
 }
 
 .tall li {
 
     list-style: none;
     line-height: 30px;
+    font-family: 'Lato', Calibri, Arial, sans-serif !important;
 }
 
 
 .description {
     font-size: 17px;
+    font-family: 'Lato', Calibri, Arial, sans-serif !important;
     color: #777;
     line-height: 24px;
     margin: 0 0 20px;
@@ -405,7 +414,8 @@ p.tall {
 .description h2 {
     border-bottom: 2px solid #f89406;
     display: inline-block;
-    padding-bottom: 1px
+    padding-bottom: 1px;
+    font-family: 'Lato', Calibri, Arial, sans-serif !important;
 }
 
 
@@ -849,10 +859,15 @@ footer .copyright {
     font-size: 16px;
 }
 
+p{
+    font-family: 'Lato', Calibri, Arial, sans-serif !important;
+}
+
 .vertical-info p.delimiter {
     margin: 10px 0;
     padding-bottom: 10px;
     border-bottom: 1px solid #e0dede;
+    font-family: 'Lato', Calibri, Arial, sans-serif !important;
 }
 
 .work-section img{
@@ -892,21 +907,21 @@ footer .copyright {
     display: inline-block;
     color: #fff;
     font-size: 12px;
-    font-style: oblique;
+    font-style: normal;
 }
 
 .twoBox {
     margin: 0px;
     background-color: #F0F0F0;
     position: inherit;
-    height:50%
+    max-height:320px;
+    font-family: 'Lato', Calibri, Arial, sans-serif !important;
 }
 
 .twoBox p {
-
+    font-family: 'Lato', Calibri, Arial, sans-serif !important;
     font-size: 18px;
     line-height: 24px;
-    font-style: italic;
     margin-left: 10px;
     margin-right: 10px;
 }
@@ -931,6 +946,7 @@ footer .copyright {
     text-transform: capitalize;
     position: relative;
     overflow: hidden;
+    font-family: 'Lato', Calibri, Arial, sans-serif !important
 }
 
 
@@ -949,8 +965,8 @@ footer .copyright {
     margin-bottom: 10px;
     text-align: center;
     font-size: 30px;
-    background: #fff;
+    background: #999898;
     color: #333;
     border-radius: 2px;
-    background: #0088CC;
+    background: #01324B;
 }
