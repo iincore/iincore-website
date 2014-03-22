@@ -1,13 +1,30 @@
+
+
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8" />
-        <title>{% block title %}Welcome!{% endblock %}</title>
-        {% block stylesheets %}{% endblock %}
-        <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
-    </head>
-    <body>
-        {% block body %}{% endblock %}
-        {% block javascripts %}{% endblock %}
-    </body>
+<head>
+    <meta charset="UTF-8" />
+    <title>
+
+        {%- if block('title') -%}   {{ block('title') }} | IINCORE - Bring Ideas to Life
+        {%- else -%}    IINCORE - Bring Ideas to Life
+        {%- endif -%}
+
+    </title>
+    <meta name="description" content="Bring Ideas to Life. We are Xcubators support the successful development of
+    ENTREPRENEURIAL Companies. Our highest priority is to have satisfied customers.
+    We tailor our processes to meet specific needs of our customers and deliver quality software solutions." >
+    <meta name="keywords" content="ideation,ideate, incubators, excubator, idea, innovation, collaboration,
+    agile development, mobile development, cloud computing,
+    ENTREPRENEUR, Mobile development, android development, iOS, mobile apps, big data, cassandra,
+    Go to Market, Low budget, ROI, quality software solutions, quality, quality assurance, prototype, Product Development,
+    Technology Consulting, Solution design, Product Lifecycle Managemen, Web Development, Web Platform, ubiquitous,Maintainance,
+    low investment, flexible payment, outsource, outsource software development, Value for money, idea, solr search,
+    lucene, trello, cloud solutions, Enterprise architecture">
+    <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+
+</head>
+<body>
+
+</body>
 </html>
