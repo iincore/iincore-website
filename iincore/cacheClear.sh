@@ -8,4 +8,6 @@ echo "clearing cache"
 php app/console cache:clear --env=dev
 
 
-php app/console cache:clear --env=prod true
+php app/console cache:clear --env=prod
+
+ 
