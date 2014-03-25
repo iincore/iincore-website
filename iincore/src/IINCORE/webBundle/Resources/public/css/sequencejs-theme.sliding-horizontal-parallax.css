@@ -219,7 +219,7 @@ table {
   transition-property: right;
 }
 #sequence .animate-in .info {
-  right: 45%;
+  right: 40%;
   -webkit-transition-duration: 2s;
   -moz-transition-duration: 2s;
   -ms-transition-duration: 2s;
